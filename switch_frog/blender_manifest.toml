@@ -1,0 +1,23 @@
+schema_version = "1.0.0"
+
+id = "switch_frog"
+version = "1.1.0"
+name = "Switch Frog Generator"
+tagline = "Generate 3D-printable model railroad turnout frogs"
+maintainer = "John <john@singerlinks.com>"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+tags = ["Add Mesh", "Import-Export"]
+
+[permissions]
+files = "Save frog presets and export STL/OBJ files"
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  "*.pyc",
+]
